@@ -8,3 +8,15 @@ EX:
 -O tamanho padrão de um iframe é de 300x150 mas voce pode editar isso dentro da propia tag com um
  heigh ou width;
 
+-apesar de voce poder editar localmente, qualquer alteração em css vai sobrepor a local.
+
+-voce tambem pode usar o parametro scrolling = ""
+scrolling = "Yes" (Criar borda de rolagem mesmo que não precise)
+scrolling = "No" (Não criar borda mesmo que precise)
+scrolling = "Auto" (agir de acordo a necessidade)
+
+-o frameborder= "" so aceita 2 valores
+
+frameborder= "0" (Sem borda)
+frameborder= "1" (independente do valor ser 1 ou qualquer outro diferente de 0 ele vai 
+                  criar a borda pradrão)
