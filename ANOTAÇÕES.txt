@@ -1,0 +1,10 @@
+para utilizar um iframe utilize a tag iframe e coloque um texto pra caso nao funcione dentro dele
+
+EX:           
+           <iframe src="https://www.cursoemvideo.com/" frameborder="0">
+           (Seu navegador não é compativel com essa tecnologia.)
+           </iframe>
+
+-O tamanho padrão de um iframe é de 300x150 mas voce pode editar isso dentro da propia tag com um
+ heigh ou width;
+
