@@ -20,3 +20,10 @@ scrolling = "Auto" (agir de acordo a necessidade)
 frameborder= "0" (Sem borda)
 frameborder= "1" (independente do valor ser 1 ou qualquer outro diferente de 0 ele vai 
                   criar a borda pradrão)
+
+-se voce quiser exibir diferentes opções de endereço no mesmo iframe é so construir uma forma 
+ de seleção com uma lista de links ou um nav, botar os endereços dos iframes desejados em cada link
+ e depois botar um target 'name'
+
+- name= (é usado como um tipo de classe que é posto nos iframes para poder ser usado dentro do target das 
+         ancoras e gerar esse efeito )
