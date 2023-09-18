@@ -25,5 +25,8 @@ frameborder= "1" (independente do valor ser 1 ou qualquer outro diferente de 0 e
  de seleção com uma lista de links ou um nav, botar os endereços dos iframes desejados em cada link
  e depois botar um target 'name'
 
-- name= (é usado como um tipo de classe que é posto nos iframes para poder ser usado dentro do target das 
+name= (é usado como um tipo de classe que é posto nos iframes para poder ser usado dentro do target das 
          ancoras e gerar esse efeito )
+
+Srcdoc='' (É um parametro usado dentro da tag inframe onde voce pode digitar html padrão pra servir como
+           conteudo principal do inframe, antes de voce selecionar outro conteudo) 
