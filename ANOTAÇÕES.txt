@@ -30,3 +30,8 @@ name= (é usado como um tipo de classe que é posto nos iframes para poder ser u
 
 Srcdoc='' (É um parametro usado dentro da tag inframe onde voce pode digitar html padrão pra servir como
            conteudo principal do inframe, antes de voce selecionar outro conteudo) 
+
+<form> é uma tag usanda pra introduzir um formulario no codigo.
+
+<input> é um codigo usado para coletar alguma informação do usuario que vai ser previamente tipificada no 
+codigo.
