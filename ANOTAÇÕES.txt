@@ -40,4 +40,6 @@ sandbox = "sandbox" (paremetro colocado dentro do iframe para fazer ele parar de
                      seguro.)
 
 referrerpolicy = 'no-referrer' (faz com que o site utilizado no iframe não utilize nenhum tipo de dado fornecido
-                                pelo seu site)
+                                pela navegação do usuario no seu site)
+
+(O conjunto desses 2 parametros é o maximo de segurança que voce consegue alocar no iframe)
