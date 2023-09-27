@@ -54,3 +54,5 @@ sandbox = "allow-same-origin" (permitir conteudo de mesma origem)
 sandbox = "allow-forms allow-scripts"(permitir scripts e formularios)
 
 -assim como no caso acima voce pode botar varios valores diferentes no mesmo parametro.
+
+sandbox = 'allow-scripts' (permitir somente scripts)
