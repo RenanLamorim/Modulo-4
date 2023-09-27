@@ -35,3 +35,9 @@ Srcdoc='' (É um parametro usado dentro da tag inframe onde voce pode digitar ht
 
 <input> é um codigo usado para coletar alguma informação do usuario que vai ser previamente tipificada no 
 codigo.
+
+sandbox = "sandbox" (paremetro colocado dentro do iframe para fazer ele parar de captar dados e se tornar mais
+                     seguro.)
+
+referrerpolicy = 'no-referrer' (faz com que o site utilizado no iframe não utilize nenhum tipo de dado fornecido
+                                pelo seu site)
