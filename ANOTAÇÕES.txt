@@ -10,10 +10,12 @@ EX:
 
 -apesar de voce poder editar localmente, qualquer alteração em css vai sobrepor a local.
 
+
 -voce tambem pode usar o parametro scrolling = ""
 scrolling = "Yes" (Criar borda de rolagem mesmo que não precise)
 scrolling = "No" (Não criar borda mesmo que precise)
 scrolling = "Auto" (agir de acordo a necessidade)
+----------------------------------------------------------------------------------------------------------------
 
 -o frameborder= "" so aceita 2 valores
 
@@ -35,6 +37,7 @@ Srcdoc='' (É um parametro usado dentro da tag inframe onde voce pode digitar ht
 
 <input> é um codigo usado para coletar alguma informação do usuario que vai ser previamente tipificada no 
 codigo.
+---------------------------------------------------------------------------------------------------------------
 
 sandbox = "sandbox" (paremetro colocado dentro do iframe para fazer ele parar de captar dados e se tornar mais
                      seguro.)
@@ -43,3 +46,11 @@ referrerpolicy = 'no-referrer' (faz com que o site utilizado no iframe não util
                                 pela navegação do usuario no seu site)
 
 (O conjunto desses 2 parametros é o maximo de segurança que voce consegue alocar no iframe)
+
+-Outro valores que voce pode utilizar nessa tag são:
+
+sandbox = "allow-same-origin" (permitir conteudo de mesma origem) 
+
+sandbox = "allow-forms allow-scripts"(permitir scripts e formularios)
+
+-assim como no caso acima voce pode botar varios valores diferentes no mesmo parametro.
