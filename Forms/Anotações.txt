@@ -6,3 +6,5 @@ Ex: <Form>
           <p> Idade: <input type="number" name="idade" id="idade"> </p> 
     </form>
 
+-Para criar um botao de enviar use o input type="submit" e bota o "enviar" ou o texto desejado dentro do value.
+
