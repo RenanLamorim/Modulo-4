@@ -1,0 +1,1 @@
+Use a tag <Form> pra iniciar um formulario.
