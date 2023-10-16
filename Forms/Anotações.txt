@@ -1,1 +1,8 @@
-Use a tag <Form> pra iniciar um formulario.
+-Use a tag <Form> pra iniciar um formulario.
+
+-Para criar a caixa onde voce vai digitar a informação solicitada use <input> dentro do <p>
+
+Ex: <Form> 
+          <p> Idade: <input type="number" name="idade" id="idade"> </p> 
+    </form>
+
