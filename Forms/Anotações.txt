@@ -12,3 +12,5 @@ Ex: <Form>
 
 Para desligar o preencher automatico de um formulario use a tag autocomplete="off" dentro da tag <form>
 
+para associar oque esta escrito no paragrafo com o input que esta ao seu lado envelope as palavras com a tag
+<label> e coloque o id do input em questao dentro do parametro for"" que vai aparecer dentro da label
