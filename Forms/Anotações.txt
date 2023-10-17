@@ -8,3 +8,7 @@ Ex: <Form>
 
 -Para criar um botao de enviar use o input type="submit" e bota o "enviar" ou o texto desejado dentro do value.
 
+------------------------------------------------------------------------------------------------------------------
+
+Para desligar o preencher automatico de um formulario use a tag autocomplete="off" dentro da tag <form>
+
