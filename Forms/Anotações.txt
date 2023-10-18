@@ -24,3 +24,8 @@ Existem 2 tipos de metodo de formulario: "get" e "post"
 
 eles são inseridos dentro de um parametro method="post" que é inserido dentro da tag <form>
 
+o metodo que vem por padrao é o "get" que faz com que as informações coletadas vão parar na url
+
+já o metodo "post" serve para fazer com que os dados não aparecam na url garantindo mais segurança pro
+seu formulario.
+
