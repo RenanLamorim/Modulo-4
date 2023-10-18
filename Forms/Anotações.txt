@@ -14,3 +14,13 @@ Para desligar o preencher automatico de um formulario use a tag autocomplete="of
 
 para associar oque esta escrito no paragrafo com o input que esta ao seu lado envelope as palavras com a tag
 <label> e coloque o id do input em questao dentro do parametro for"" que vai aparecer dentro da label
+
+Ex:
+<label for="iidade">Idade:</label> 
+------------------------------------------------------------------------------------------------------------------
+Metodos de envio de formulario:
+
+Existem 2 tipos de metodo de formulario: "get" e "post"
+
+eles são inseridos dentro de um parametro method="post" que é inserido dentro da tag <form>
+
