@@ -28,4 +28,11 @@ o metodo que vem por padrao é o "get" que faz com que as informações coletada
 
 já o metodo "post" serve para fazer com que os dados não aparecam na url garantindo mais segurança pro
 seu formulario.
+------------------------------------------------------------------------------------------------------------------
+o input do tipo password faz com que os dados digitados sejam censurados
+
+para fazer com que seja obrigatorio preencher o campo antes de enviar o input coloque o paramentro required dentro 
+do <input>
+
+
 
