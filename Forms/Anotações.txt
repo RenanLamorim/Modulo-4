@@ -18,6 +18,7 @@ para associar oque esta escrito no paragrafo com o input que esta ao seu lado en
 Ex:
 <label for="iidade">Idade:</label> 
 ------------------------------------------------------------------------------------------------------------------
+
 Metodos de envio de formulario:
 
 Existem 2 tipos de metodo de formulario: "get" e "post"
@@ -29,10 +30,14 @@ o metodo que vem por padrao é o "get" que faz com que as informações coletada
 já o metodo "post" serve para fazer com que os dados não aparecam na url garantindo mais segurança pro
 seu formulario.
 ------------------------------------------------------------------------------------------------------------------
+
 o input do tipo password faz com que os dados digitados sejam censurados
 
 para fazer com que seja obrigatorio preencher o campo antes de enviar o input coloque o paramentro required dentro 
 do <input>
+
+para selecionar o minimo e maximo de digitos que uma senha ou qualquer input pode ter use "minlength" e "maxlength"
+dentro do form
 
 
 
