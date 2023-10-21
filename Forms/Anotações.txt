@@ -43,4 +43,6 @@ o parametro size tambem é usado dentro do input e serve pra definir o tamanho d
 
 placeholder serve pra inserir um texto dentro do input indicando qual o conteudo deve ser inserido la dentro.
 
+autocomplete tem as opções "on" e "off" e serve para desligar o ligar o preenchimento automatico.
+
 
