@@ -39,5 +39,6 @@ do <input>
 para selecionar o minimo e maximo de digitos que uma senha ou qualquer input pode ter use "minlength" e "maxlength"
 dentro do form
 
+o parametro size tambem é usado dentro do input e serve pra definir o tamanho da caixa na medida de caracteres.
 
 
