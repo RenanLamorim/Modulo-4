@@ -47,4 +47,8 @@ autocomplete tem as opções "on" e "off" e serve para desligar o ligar o preenc
 
 ja o autocomplete dentro do input tem uma função especifica pra cada tipo de input ex: username current-password e etc...
 
+------------------------------------------------------------------------------------------------------------------
+
+use o parametro value= "" pra digitar oque vai estar dentro dos inputs submit e reset.
+
 
