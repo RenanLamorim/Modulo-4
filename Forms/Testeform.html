@@ -4,21 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste</title>
+    <style>
+        body{
+            border: black 1px solid;
+            height: 98vh;
+        }
+        .div-form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+
+
+
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            border: black 1px solid; 
+            padding: 5px;
+
+
+        }
+    </style>
 </head>
 <body>
-<form action="Cadastro.php" method="post" autocomplete="on">
-    <p>
-        <label for="iuser">Usuario:</label>
-        <input type="text" name="user" id="iuser" placeholder="insira o usuario" required autocomplete="username">
+    <div class="div-form">
 
-    </p>
-    <p>
-        <label for="ipass">senha:</label>
-        <input type="password" name="pass" id="ipass" maxlength="15" minlength="7" placeholder="7 caracteres no minimo" required autocomplete="current-password">
-
-
-    </p>
-    <input type="submit">
+        <form action="Cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iuser">Usuario:</label>
+            <input type="text" name="user" id="iuser" placeholder="insira o usuario" required autocomplete="username">
+        </p>
+        <p>
+            <label for="ipass">senha:</label>
+            <input type="password" name="pass" id="ipass" maxlength="15" minlength="7" placeholder="7 caracteres no minimo" required autocomplete="current-password">
+        </p>
+        <input type="submit">
+    </div>
 </form>
 </body>
 </html>
