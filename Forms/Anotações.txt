@@ -59,4 +59,6 @@ ex:nota escolar min="0" max="10"
 step="" é usado pra determinar de qual o tamano do espaço dos numeros. Ele vem de 1 em 1 por padrão mas dessas forma o 
 input number nao aceitaria numeros decimais, por isso se voce quer que aceite voce tem que botar o step="0,1".
 
+o input do tipo month serve pra criar um caledario interativo onde o usario pode selecionar o mes no seu formulario.
+
 

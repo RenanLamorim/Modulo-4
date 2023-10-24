@@ -8,13 +8,17 @@
 <body>
     <h1>formulario</h1>
     <form action="Cadastro.php" autocomplete="on"> 
+        <p>
+            <label for="iperi">Periodo</label>
+            <input type="month" name="peri" id="iperi" required value="2023-10">
+        </p>
 <p>
     <label for="inome">Nome</label>
-    <input type="text" name="nome" id="inome" placeholder="Nome Completo" autocomplete="name">
+    <input type="text" name="nome" id="inome" placeholder="Nome Completo" autocomplete="name" required>
 </p>
 <p>
     <label for="inota">Nota:</label>
-    <input type="number" name="nota" id="inota" placeholder="media" step="0.1" min="0" max="10"  >
+    <input type="number" name="nota" id="inota" placeholder="media" step="0.1" min="0" max="10" required value="7.0">
 
 </p>
 <p>
