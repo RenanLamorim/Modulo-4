@@ -61,4 +61,9 @@ input number nao aceitaria numeros decimais, por isso se voce quer que aceite vo
 
 o input do tipo month serve pra criar um caledario interativo onde o usario pode selecionar o mes no seu formulario.
 
+o input do tipo date serve pra criar um calendario que tambem da pra escolher o dia e seu value é seperado por barra 
+na ordem americana assim como o input month.
+
+o input do tipo time serve pra selecionar a hora e seu value é separado por 2 pontos
+
 
