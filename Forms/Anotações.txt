@@ -51,4 +51,12 @@ ja o autocomplete dentro do input tem uma função especifica pra cada tipo de i
 
 use o parametro value= "" pra digitar oque vai estar dentro dos inputs submit e reset.
 
+os parametros min e max são usadas exclusivamente em inputs do tipo number pra falar o
+valor minimo e o valor maximo permitido:
+
+ex:nota escolar min="0" max="10"
+
+step="" é usado pra determinar de qual o tamano do espaço dos numeros. Ele vem de 1 em 1 por padrão mas dessas forma o 
+input number nao aceitaria numeros decimais, por isso se voce quer que aceite voce tem que botar o step="0,1".
+
 
