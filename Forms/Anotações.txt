@@ -84,6 +84,10 @@ separa por barra e depois bota quantos digitos sao nao segunda parte
 
 pattern"^[0-9]{4}-[0-9]{4}$"
 
+[0-9]{4,5} significaria que sao permitidos de 4 a 5 digitos na primeira parte.
+
+
+
 
 
 
