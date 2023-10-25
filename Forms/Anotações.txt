@@ -66,4 +66,8 @@ na ordem americana assim como o input month.
 
 o input do tipo time serve pra selecionar a hora e seu value é separado por 2 pontos
 
+o input do tipo email serve pra pedir email e ele basicamente so verifica se tem um @ no texto ou não.
+
+o input do tipo tel serve pra solicitar telefone.
+
 
