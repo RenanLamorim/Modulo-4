@@ -69,5 +69,21 @@ o input do tipo time serve pra selecionar a hora e seu value é separado por 2 p
 o input do tipo email serve pra pedir email e ele basicamente so verifica se tem um @ no texto ou não.
 
 o input do tipo tel serve pra solicitar telefone.
+------------------------------------------------------------------------------------------------------------------
+expressão regular é usado no input tel e é um assunto a se estudar e são botadas dentro do parametro pattern"^$"
+
+a expressão deve ser botada entre os ^ e $ 
+
+[0-9]{4}-[0-9]{4}
+
+[0-9]significa digitos  
+
+entre chaves voce bota quantos digitos sao
+
+separa por barra e depois bota quantos digitos sao nao segunda parte
+
+pattern"^[0-9]{4}-[0-9]{4}$"
+
+
 
 
