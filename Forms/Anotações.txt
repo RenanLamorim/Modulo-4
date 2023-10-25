@@ -86,6 +86,14 @@ pattern"^[0-9]{4}-[0-9]{4}$"
 
 [0-9]{4,5} significaria que sao permitidos de 4 a 5 digitos na primeira parte.
 
+para abrir parenteses use \(   \)
+
+\( [0-9]{2} \) isso significa que tem que ter um 2 digitos entra parenteses no inicio (ddd)
+
+pattern="^\([0-9]{2}\)[0-9]{4,5}-[0-9]{4}$"
+
+use um placeholder="(xx)xxxx-xxxx" pra indicar o formato exigido para o usuario.
+
 
 
 
