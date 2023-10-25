@@ -4,39 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form-3</title>
+    <style>
+        div{
+            border: 1px black solid;
+            display: inline-block;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>formulario</h1>
-    <form action="Cadastro.php" autocomplete="on"> 
+    <div>
+        <h1>formulario</h1>
+        <form action="Cadastro.php" autocomplete="on">
+            <p>
+                <label for="iperi">Periodo</label>
+                <input type="month" name="peri" id="iperi" required value="2023-10">
+            </p>
+            <p>
+                <label for="idia">dia da prova:</label>
+                <input type="date" name="dia" id="idia" value="2023-10-23">
+            </p>
+            <p>
+                <label for="ihora">Horario da prova:</label>
+                <input type="time" name="hora" id="ihora" value="16:20">
+            </p>
         <p>
-            <label for="iperi">Periodo</label>
-            <input type="month" name="peri" id="iperi" required value="2023-10">
+        <label for="inome">Nome</label>
+        <input type="text" name="nome" id="inome" placeholder="Nome Completo" autocomplete="name" required>
         </p>
         <p>
-            <label for="idia">dia da prova:</label>
-            <input type="date" name="dia" id="idia" value="2023-10-23">
+        <label for="inota">Nota:</label>
+        <input type="number" name="nota" id="inota" placeholder="media" step="0.1" min="0" max="10" required value="7.0">
+        
         </p>
         <p>
-            <label for="ihora">Horario da prova:</label>
-            <input type="time" name="hora" id="ihora" value="16:20">
+        <input type="submit" value="enviar">
+        <input type="reset" value="Limpar">
+        
         </p>
-<p>
-    <label for="inome">Nome</label>
-    <input type="text" name="nome" id="inome" placeholder="Nome Completo" autocomplete="name" required>
-</p>
-<p>
-    <label for="inota">Nota:</label>
-    <input type="number" name="nota" id="inota" placeholder="media" step="0.1" min="0" max="10" required value="7.0">
-
-</p>
-<p>
-    <input type="submit" value="enviar">
-    <input type="reset" value="Limpar">
-
-</p>
-
-
-
-    </form>
+        </form>
+    </div>
 </body>
 </html>
