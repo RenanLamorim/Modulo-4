@@ -100,6 +100,11 @@ e vai criar uma borda em volta do seus dados selecionados.
 
 em cima dele voce pode selecionar um titulo para seu grupo de campos com a tag <legend>
 
+------------------------------------------------------------------------------------------------------------------
+
+o input do tipo checkbox serve para cria uma caixa de marcação com o conteudo que voce quiser porem o conteudo tem
+que ser associado ao input atraves de um label. 
+
 
 
 
