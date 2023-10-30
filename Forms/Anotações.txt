@@ -105,6 +105,12 @@ em cima dele voce pode selecionar um titulo para seu grupo de campos com a tag <
 o input do tipo checkbox serve para cria uma caixa de marcação com o conteudo que voce quiser porem o conteudo tem
 que ser associado ao input atraves de um label. 
 
+o input do tipo radio é basicamente uma checkbox porem usado em casos que so uma das opções vai ser selecionada como
+por exemplo pra selecionar o sexo do usuario porem pra fazer com so uma opção possa ser selecionada e quando voce selecione
+outra a que estava marcada anteriormente se desmarque voce tem que deixar todos os inputs com o mesmo name.
+
+Use checked dentro do input pra fazer com que uma das opções ja apareca marcada no inicio.
+
 
 
 
