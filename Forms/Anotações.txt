@@ -111,6 +111,8 @@ outra a que estava marcada anteriormente se desmarque voce tem que deixar todos 
 
 Use checked dentro do input pra fazer com que uma das opções ja apareca marcada no inicio.
 
+coleque um value no seu input radio para diferenciar eles e aparecer a informação da forma correta na url no no network
+
 
 
 
