@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form-teste</title>
     <style> 
-    fieldset{
+    .fieldset-1{
         display: inline-block;
+        margin-bottom: 10px;
+    }
+    .fieldset-2{
+        display: inline-block;
+        margin-bottom: 10px;
+
     }
 
     legend{
@@ -27,7 +33,7 @@ div{
         </ins>
         <form action="Cadastro.php" autocomplete="on">
             <legend>Dados</legend>
-            <fieldset>
+            <fieldset class="fieldset-1">
                 <p>
                 <label for="iemail">Email:</label>
                 <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="Insira um email valido">
@@ -41,9 +47,10 @@ div{
                     <input type="reset" value="Limpar">
                 </p>
             </fieldset><br>
-           <fieldset>
-           <input type="radio" name="mas" id="imas"><label for="imas">Masculino</label>
-           <input type="radio" name="fem" id="ifem"><label for="ifem">Feminino</label>
+           <fieldset class="fieldset-2">
+            <legend>Sexo</legend>
+           <input type="radio" name="sexo" id="imas"><label for="imas">Masculino</label><br>
+           <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
 
            </fieldset> 
         </form>
