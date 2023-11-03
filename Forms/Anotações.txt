@@ -113,6 +113,14 @@ Use checked dentro do input pra fazer com que uma das opções ja apareca marcad
 
 coleque um value no seu input radio para diferenciar eles e aparecer a informação da forma correta na url no no network
 
+------------------------------------------------------------------------------------------------------------------
+
+o Input do tipo color cria uma caixa na tela com uma cor pre-selecionada e se voce clicar nela abre um seletor onde
+voce consegue escolher qualquer cor que voce desejar.
+
+o Input do tipo range cria um elemento na tela semelhante ao botao de aumentar dimuir o volume onde voce pode arrastar 
+a bolinha ate o final indicando 100% ou deixar no inicio indicando 0%
+
 
 
 
