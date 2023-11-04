@@ -118,8 +118,18 @@ coleque um value no seu input radio para diferenciar eles e aparecer a informaç
 o Input do tipo color cria uma caixa na tela com uma cor pre-selecionada e se voce clicar nela abre um seletor onde
 voce consegue escolher qualquer cor que voce desejar.
 
-o Input do tipo range cria um elemento na tela semelhante ao botao de aumentar dimuir o volume onde voce pode arrastar 
+a cor padrão que vem na caixa é preto mas se voce quiser mudar voce pode botar um parametro value dentro do input e 
+botar o codigo da cor desejada dentro.
+
+o Input do tipo range cria uma barra na tela semelhante ao botao de aumentar dimuir o volume onde voce pode arrastar 
 a bolinha ate o final indicando 100% ou deixar no inicio indicando 0%.
+
+se voce botar um min= 1 e uma max=5 no seu input range a barra vai se deslocar de 5 em 5
+
+pra mudar a posição inicial da barra é so criar um value e botar o valor que voce deseja de 1 a 100 ou caso voce tenha 
+alterado o min e max escolha um valor dentro de limite selecionado.
+
+
 
 
 
