@@ -135,6 +135,8 @@ alterado o min e max escolha um valor dentro de limite selecionado.
 o input do tipo file serve pra criar um botao na tela onde vc clica e ele abre os documentos do seu pc pra voce selecionar 
 uma foto assim como vc faz pra botar uma foto de perfil ou adicionar fotos a um anuncio.
 
+para que o input file nao de erro ao enviar voce tem que deixar o seu form no method post obrigatoriamente.
+
 
 
 
