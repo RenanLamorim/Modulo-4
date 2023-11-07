@@ -137,6 +137,14 @@ uma foto assim como vc faz pra botar uma foto de perfil ou adicionar fotos a um 
 
 para que o input file nao de erro ao enviar voce tem que deixar o seu form no method post obrigatoriamente.
 
+------------------------------------------------------------------------------------------------------------------
+
+Outro elemento que pode ser usado alem do input é o select que serve pra criar uma caixa onde voce vai clicar e vai
+abrir varias opções em baixo.
+
+para criar as opções voce tem que criar varias tags option dentro do select e vc tem que dar um value e digitar oque 
+voce quer que apareça nas opções
+
 
 
 
