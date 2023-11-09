@@ -23,6 +23,13 @@ div{
     height: 100vh;
 
 }
+
+.fieldset-op{
+    display: inline-block;
+        margin-bottom: 30px;
+        padding: 20px;
+
+}
     </style>
 </head>
 <body>
@@ -88,13 +95,14 @@ div{
 </p>
            </fieldset> <br>
 
-           <select name="opt" id="iopt">
-            <option value="op1">opção 1</option>
-            <option value="op2">opção 2</option>
-            <option value="op3">opção 3</option>
-
-
-           </select>
+           <fieldset class="fieldset-op">
+            <legend>Opções</legend>
+               escolha uma das opções: <select name="opt" id="iopt">
+                <option value="op1">opção 1</option>
+                <option value="op2">opção 2</option>
+                <option value="op3">opção 3</option>
+               </select>
+           </fieldset>
 
            <p>
             <input type="submit" value="Enviar">
