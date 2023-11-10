@@ -145,6 +145,11 @@ abrir varias opções em baixo.
 para criar as opções voce tem que criar varias tags option dentro do select e vc tem que dar um value e digitar oque 
 voce quer que apareça nas opções
 
+se voce agrupar algumas das optinhos do seu select em uma tag optgroup voce vai juntar elas em uma categoria que vai 
+ser exibida quando voce clicar pra ver as opções.
+
+pra nomear seu optgroup use um label detro da tag.
+
 
 
 
