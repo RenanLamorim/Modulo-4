@@ -150,6 +150,14 @@ ser exibida quando voce clicar pra ver as opções.
 
 pra nomear seu optgroup use um label detro da tag.
 
+voce tambem pode criar um datalist que é uma mistura de um select e um input type text.
+
+voce precisa botar um id na sua tag datalist e depois botar o id dentro do parametro list dentro
+do input type text que voce criou em cima, dessa forma vai ser criada uma caixa de texto que tambem 
+tem a possibilidade de ver as opções em baixo.
+
+
+
 
 
 
