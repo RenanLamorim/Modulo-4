@@ -156,6 +156,12 @@ voce precisa botar um id na sua tag datalist e depois botar o id dentro do param
 do input type text que voce criou em cima, dessa forma vai ser criada uma caixa de texto que tambem 
 tem a possibilidade de ver as opções em baixo.
 
+se voce quiser tirar o codigo que aparece em cima é so tirar o value.
+
+outra tag que voce pode utilizar é um textarea que é como se fosse um input type text so que maior e o 
+propio usuario pode aumentar e diminuir a area de texto clicando e arrastando.
+
+caso voce va usar essa tag faço o formulario no metodo post.
 
 
 
