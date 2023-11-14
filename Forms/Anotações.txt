@@ -162,6 +162,13 @@ outra tag que voce pode utilizar é um textarea que é como se fosse um input ty
 propio usuario pode aumentar e diminuir a area de texto clicando e arrastando.
 
 caso voce va usar essa tag faço o formulario no metodo post.
+------------------------------------------------------------------------------------------------------------------
+
+O ultimo comando estudado foi o output que serve basicamente para exibir algo na tela entao ele não é enviado junto
+com as outras informações do formulario ele serve exclusivamente para mostrar algo ao usuario.
+
+para fazer com que 2 inputs numbers sejam somados coloque um oninput dentro do input pra fazer um javascript locar e 
+use isoma.innerHTML = Number(in1.value) + Number(in2.value)"
 
 
 
