@@ -95,21 +95,23 @@ div{
 </p>
            </fieldset> <br>
 
-           <fieldset class="fieldset-op">
-            <legend>Opções</legend>
-               Selecione seu autor preferido: <select name="opt" id="iopt">
-                <optgroup label="Classica"> 
-                    <option value="orw">Orwell</option>
-                    <option value="kaf">Kafka</option>
-                    <option value="dost">Dostoieviski</option>
-                </optgroup>
-                <optgroup label="Ficção">
-                    <option value="dost">J.k rowling</option>
-                    <option value="dost">Steph king</option>
-                    <option value="dost">G.R martin</option>
-                </optgroup>
-               </select>
-           </fieldset>
+           <p>
+               <fieldset class="fieldset-op">
+                <legend>Opções</legend>
+                   Selecione seu autor preferido: <select name="opt" id="iopt">
+                    <optgroup label="Classica">
+                        <option value="orw">Orwell</option>
+                        <option value="kaf">Kafka</option>
+                        <option value="dost">Dostoieviski</option>
+                    </optgroup>
+                    <optgroup label="Ficção">
+                        <option value="dost">J.k rowling</option>
+                        <option value="dost">Steph king</option>
+                        <option value="dost">G.R martin</option>
+                    </optgroup>
+                   </select>
+               </fieldset>
+           </p>
 
            <p>
             <fieldset class="fieldset-op">
@@ -133,36 +135,31 @@ div{
         </fieldset>
 <br>
 
-           <fieldset>
-            <legend>Calculadora</legend>
- <p>
-                <label for="iv1">Valor 1:</label>
-                <input type="number" name="v1" id="iv1" 
-                oninput="isoma.innerHTML = Number(iv1.value) + Number(iv2.value)>
+<p>
+    <label for="in1">Valor 1:</label>
+    <input type="number" name="n1" id="in1">
 </p>
-            
+<p>
+    <label for="in2">Valor 2:</label>
+    <input type="number" name="n2" id="in2">  
+</p>
+
+<p>
+    <label for="isoma">soma:</label>
+    <output id="isoma">0</output>
+</p>
+
+
+
+
+
+
             <p>
-                <label for="iv1">Valor 2:</label>
-                <input type="number" name="v2" id="iv2">
-            </p>
-            <p>
-                <label for="soma">Resultado:</label>
-                <output id="soma">
-0
-                </output>
-            </p>
-
-           </fieldset>
-
-
-
-
-           <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
 
 
-        </p>  
+           </p>  
 
 
 
