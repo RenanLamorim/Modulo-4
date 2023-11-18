@@ -137,11 +137,13 @@ div{
 
 <p>
     <label for="in1">Valor 1:</label>
-    <input type="number" name="n1" id="in1">
+    <input type="number" name="n1" id="in1"
+    oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
 </p>
 <p>
     <label for="in2">Valor 2:</label>
-    <input type="number" name="n2" id="in2">  
+    <input type="number" name="n2" id="in2"
+    oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">  
 </p>
 
 <p>
