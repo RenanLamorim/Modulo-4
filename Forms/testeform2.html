@@ -152,8 +152,21 @@ div{
         <label for="isoma">soma:</label>
         <output id="isoma">0</output>
     </p>
-</fieldset>
+</fieldset><br>
 
+
+<fieldset class="fieldset-op">
+    <legend>idade</legend>
+    <p>
+        <label for="iano">Ano que voce nasceu:</label>
+        <input type="number" name="ano" id="iano" min="1900" max="2023" oninput="calcidade()"> <br>
+    </p>
+    <p>
+        <label for="iidade">idade</label>
+        <output id="iidade">0</output>
+    </p>
+
+</fieldset>
 
 
 
@@ -170,6 +183,12 @@ div{
 
         </form>
         <hr>
+        <script>
+            function calcidade() {
+                let atual = new Date().getFullYear()
+                iidade.innerHTML = Number(atual) - Number(iano.value)
+            }
+        </script>
 
     </div>
 </body>
