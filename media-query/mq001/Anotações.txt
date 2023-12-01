@@ -1,0 +1,6 @@
+-são criados varios links css dentro do head para cada tipo de media query 
+ e eles são especificados depois atraves de um media = "screen"
+ 
+media = "screen" serve pra tela
+
+media = "Print" serve pra impressora
