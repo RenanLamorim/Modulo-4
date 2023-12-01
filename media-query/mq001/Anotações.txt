@@ -4,3 +4,5 @@
 media = "screen" serve pra tela
 
 media = "Print" serve pra impressora
+
+line-height pra ajustar o espaçamento entra as linhas
