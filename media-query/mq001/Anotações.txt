@@ -6,3 +6,9 @@ media = "screen" serve pra tela
 media = "Print" serve pra impressora
 
 line-height pra ajustar o espaçamento entra as linhas
+
+para mostrar algum recado especifico em alguma query use:
+
+article::after {content:'texto'} 
+
+no caso esse ::after serve pra qualquer pra mostrar um texto depois de qualquer tag, id ou classe
