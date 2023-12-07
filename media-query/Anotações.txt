@@ -1,9 +1,14 @@
 -são criados varios links css dentro do head para cada tipo de media query 
  e eles são especificados depois atraves de um media = "screen"
- 
+
+media types: 
+
 media = "screen" serve pra tela
 
 media = "Print" serve pra impressora
+
+media = "all" serve pra todos os dispositivos no caso de querer fazer uma 
+              configuração geral.
 
 line-height pra ajustar o espaçamento entra as linhas
 
@@ -11,4 +16,4 @@ para mostrar algum recado especifico em alguma query use:
 
 article::after {content:'texto'} 
 
-no caso esse ::after serve pra qualquer pra mostrar um texto depois de qualquer tag, id ou classe
+no caso esse ::after serve pra mostrar um texto depois de qualquer tag, id ou classe
