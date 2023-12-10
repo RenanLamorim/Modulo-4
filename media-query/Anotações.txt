@@ -17,3 +17,18 @@ para mostrar algum recado especifico em alguma query use:
 article::after {content:'texto'} 
 
 no caso esse ::after serve pra mostrar um texto depois de qualquer tag, id ou classe
+-------------------------------------------------------------------------------------------------
+
+media type (Tipo de tela)
+
+media feature (caracteristica da tela em questao)
+
+-as medias features ficam entre parenteses dentro do media type:
+
+media = "screen and (orientation: portrait)"
+
+media = "screen and (orientation: landscape)"
+
+
+
+
