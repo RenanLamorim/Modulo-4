@@ -46,6 +46,8 @@ Ex:
             
         }
 
+../ pra acessar uma pasta de imagens que esta fora da que voce ta mexendo
+
 
 
 
