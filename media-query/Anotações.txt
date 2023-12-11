@@ -35,6 +35,17 @@ background: url ( ) pra botar uma imagem de fundo no site
 
 background-size: cover; pra fazer a imagem nao se repetir e oculpar o fundo inteiro
 
+-------------------------------------------------------------------------------------------------
+pra fazer todas as configurações de css na mesma pagina é so criar um media screen pra cada feature
+Ex:
+        @media screen and (orientation: portrait) {
+            
+        }
+
+        @media screen and (orientation: landscape) {
+            
+        }
+
 
 
 
