@@ -48,6 +48,14 @@ Ex:
 
 ../ pra acessar uma pasta de imagens que esta fora da que voce ta mexendo
 
+-------------------------------------------------------------------------------------------------
+
+mobile first é uma tecnica de desenvolvimento que consiste em começar a produção do site pela versão
+mobile oque tem muitas vantagens aumento de exposição no mecanismo de busca alem de te possibilitar 
+fazer essa versão da forma mais leve possivel melhorando a experiencia do usuario principalmente pra 
+quem não tem uma boa conexão com a internet.
+
+
 
 
 
