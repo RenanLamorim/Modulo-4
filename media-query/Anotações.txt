@@ -55,6 +55,9 @@ mobile oque tem muitas vantagens aumento de exposição no mecanismo de busca al
 fazer essa versão da forma mais leve possivel melhorando a experiencia do usuario principalmente pra 
 quem não tem uma boa conexão com a internet.
 
+quando todos os arquivos de uma pasta estiverem selecinados e vc quiser deselecionar um em especifico é
+so segurar ctrl e clicar nele.
+
 
 
 
