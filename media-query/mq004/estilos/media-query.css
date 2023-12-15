@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
-@media screen {
-    
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+body{
+    background: url(../Imagens/back-tablet.jpg);
+background-size: cover;
+background-position: center center;
+
+
 }
+#phone{display: none;}
+#tablet{display: block;}
+#print{display: none;}
+#pc{display: none;}
+#tv{display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  body{
+    background: url(../Imagens/back-pc.jpg);
+  }  
+  #phone{display: none;}
+#tablet{display: none;}
+#print{display: none;}
+#pc{display: block;}
+#tv{display: none;}
+}
+
+@media screen and (min-width: 1200px) {
+  body{
+    background: url(../Imagens/back-tv.jpg);
+
+  }  
+  #phone{display: none;}
+  #tablet{display: none;}
+  #print{display: none;}
+  #pc{display: none;}
+  #tv{display: block;}
+
+}
+
