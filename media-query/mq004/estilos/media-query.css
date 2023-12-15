@@ -7,8 +7,6 @@ body{
     background: url(../Imagens/back-tablet.jpg);
 background-size: cover;
 background-position: center center;
-
-
 }
 #phone{display: none;}
 #tablet{display: block;}
@@ -39,5 +37,19 @@ background-position: center center;
   #pc{display: none;}
   #tv{display: block;}
 
+}
+
+@media print {
+    *{font-family: 'Courier New', Courier, monospace;}
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: block;}
+    #pc{display: none;}
+    #tv{display: none;}
 }
 
