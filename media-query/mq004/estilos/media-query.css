@@ -40,7 +40,22 @@ background-position: center center;
 }
 
 @media print {
-    *{font-family: 'Courier New', Courier, monospace;}
+    *{font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    text-align: center;
+}
+main{
+    border: 2px solid black;
+    width: 85vw;
+    
+}
+main::after{
+    content: 'Esse site foi feito atraves do site html.com';
+    text-decoration: overline;
+
+}
+
+
 
     main h1{
         text-shadow: none;
