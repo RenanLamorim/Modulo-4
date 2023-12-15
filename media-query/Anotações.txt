@@ -67,6 +67,10 @@ tablet: 768px a 992px
 desktop: 992px ate 1200px
 grandes telas: acima de 1200 px
 
+::after {content:''} pra exibir algum texto especifico em alguma media especifica de sua preferencia
+
+text-decoration: overline; pra fazer uma linha em cima do texto
+
 
 
 
