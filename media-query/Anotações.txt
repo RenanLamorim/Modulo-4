@@ -58,6 +58,16 @@ quem não tem uma boa conexão com a internet.
 quando todos os arquivos de uma pasta estiverem selecinados e vc quiser deselecionar um em especifico é
 so segurar ctrl e clicar nele.
 
+-------------------------------------------------------------------------------------------------
+Typical Device breakpoints:
+
+Pequenas telas: ate 600px
+Celular: de 600px a 768px
+tablet: 768px a 992px
+desktop: 992px ate 1200px
+grandes telas: acima de 1200 px
+
+
 
 
 
