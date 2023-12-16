@@ -1,0 +1,7 @@
+justify-content: 
+
+space-around: espaço medio
+
+space-between: espaço maximo
+
+space-evenly: espaço baixo
