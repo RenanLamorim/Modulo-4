@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
 *{
-    background-color: ;
+margin: 0px;
+padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(212, 210, 210);
+}
+
+header{
+    background-color: rgb(143, 141, 141);
+    height: 10vh;
+}
+
+h1{text-align: center;
+padding: 15px;}
+
+nav a{
+color: white;
+background-color: rgb(68, 67, 67);
+padding: 10px;
 }
