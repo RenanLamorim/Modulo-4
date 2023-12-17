@@ -77,13 +77,13 @@ li:hover{
 #icon{
 background-color: rgb(27, 27, 27);
 display: block;
-color: white;
+color: rgb(255, 255, 255);
 text-align: center;
 padding: 20px;
 }
 
 #icon:hover{
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(255, 255, 255);
     color: black;
 }
 
