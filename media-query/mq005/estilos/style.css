@@ -74,3 +74,16 @@ li:hover{
     background-color: rgb(126, 126, 126);
 }
 
+#icon{
+background-color: rgb(27, 27, 27);
+display: block;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+#icon:hover{
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
