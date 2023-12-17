@@ -18,7 +18,7 @@ header{
     height: 70px;
 }
 
-
+nav{display: none;}
 
 h1{text-align: center;
 padding: 15px;
