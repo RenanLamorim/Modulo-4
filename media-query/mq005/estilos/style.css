@@ -10,7 +10,7 @@ padding: 0px;
 body{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(212, 210, 210);
+    background-color: rgb(221, 219, 219);
 }
 
 header{
@@ -23,7 +23,7 @@ padding: 15px;}
 
 nav a{
 color: white;
-background-color: rgb(68, 67, 67);
+
 padding: 10px;
 }
 
@@ -52,3 +52,22 @@ main{
 h2{
     margin-bottom: 20px;
 }
+
+
+
+ul{
+    text-align: center;
+
+}
+
+li{
+    padding: 15px;
+    border: 1px solid grey;
+    color: white;
+    background-color: rgb(78, 77, 77);
+}
+
+li:hover{
+    background-color: rgb(126, 126, 126);
+}
+
