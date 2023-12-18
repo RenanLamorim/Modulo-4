@@ -11,4 +11,17 @@
         display: block;
     }
 
+    #ops > ul > li{
+        display: inline-block;
+
+    }
+
+    #ops > ul{
+        text-align: start;
+    }
+
+a{
+    text-align: center;
+}
+
 }

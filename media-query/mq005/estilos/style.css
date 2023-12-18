@@ -18,6 +18,10 @@ header{
     height: 70px;
 }
 
+#cab{
+    background-color: rgb(143, 141, 141);   
+}
+
 nav{display: none;
 text-decoration: none;}
 
@@ -28,7 +32,8 @@ padding: 15px;
 nav a{
 color: white;
 
-padding: 10px;
+
+margin-bottom: 10px;
 }
 
 main{
