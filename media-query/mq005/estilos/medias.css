@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+
+    #icon{
+        display: none;
+    }
+
+    #ops{
+        display: block;
+    }
+
+}
